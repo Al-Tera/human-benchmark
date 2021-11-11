@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEE,GAFC,CAED,IAAI,CAAC;EACH,UAAU,EAAE,GAAG;CAChB",
+    "sources": [
+        "Visualtest.scss"
+    ],
+    "names": [],
+    "file": "Visualtest.css"
+}

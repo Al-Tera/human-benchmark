@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
+import Memorytest from './Components/Memorytest'
+import Numbertest from './Components/Numbertest'
+import Visualtest from './Components/Visualtest'
+import Home from './Components/Home'
+import Nav from './Components/Nav'
+import {HashRouter as Router, Switch, Route} from 'react-router-dom'
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Nav />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/chimpanzee" component={Memorytest} />
+          <Route path="/number" component={Numbertest} />
+          {/* <Route path="/visual" component={Visualtest} /> */}
+        </Switch>
+      </div>
+    </Router>
   );
 }
+
 
 export default App;

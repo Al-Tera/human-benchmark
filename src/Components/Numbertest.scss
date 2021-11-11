@@ -1,0 +1,130 @@
+.number__container {
+  cursor: default;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+}
+
+.starter__page,
+.question__page,
+.result__page {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 100% !important;
+  * {
+    text-align: center;
+    margin: 10px;
+    color: whitesmoke;
+  }
+  input {
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 90%;
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid transparent;
+    background: hsl(210, 69%, 43%);
+    font-size: 25px;
+
+    &:focus {
+      border: 2px solid hsl(208, 83%, 60%);
+    }
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  width: 50%;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+  background: rgb(245, 191, 90);
+  width: 100px;
+  height: 50px;
+  transition: 0.5s;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  color: black !important;
+
+  &:hover {
+    background: rgb(255, 234, 194);
+  }
+}
+.remember__page {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  color: white;
+  * {
+    margin: 0;
+    font-weight: 400;
+    user-select: none;
+  }
+  div {
+    position: relative;
+    background: red;
+    width: 100px;
+    height: 5px;
+    background: hsl(210, 69%, 43%);
+    border-radius: 15px 15px 15px 15px;
+    overflow: hidden;
+    span {
+      position: absolute;
+      background: white;
+      width: 100%;
+      height: 100%;
+      animation: timeranim linear forwards;
+    }
+    @keyframes timeranim {
+      to {
+        width: 0%;
+      }
+    }
+  }
+}
+
+.starter__page {
+  h4:nth-child(1) {
+    font-size: 40px;
+  }
+  h4:nth-child(2) {
+    font-weight: 400;
+  }
+  button {
+    font-weight: 700;
+    font-size: 20px;
+  }
+}
+
+.result__page {
+  h4 {
+    color: hsl(215, 44%, 71%);
+    font-weight: 400;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  .level {
+    font-size: 50px;
+    font-weight: 400;
+  }
+  s {
+    color: black;
+    margin: 0;
+  }
+}

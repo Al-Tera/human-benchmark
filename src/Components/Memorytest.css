@@ -1,0 +1,265 @@
+#memory__container,
+#chimp__test {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#memory__container h4,
+#chimp__test h4 {
+  color: white;
+}
+
+#memory__container button,
+#chimp__test button {
+  outline: none;
+  cursor: pointer;
+  background: #f5bf5a;
+  width: 120px;
+  height: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 15px;
+}
+
+#memory__container .continue__page,
+#chimp__test .continue__page {
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#memory__container .continue__page *,
+#chimp__test .continue__page * {
+  margin: 10px;
+}
+
+#memory__container .continue__page h4,
+#chimp__test .continue__page h4 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#memory__container .continue__page h4:nth-child(1), #memory__container .continue__page h4:nth-child(2),
+#chimp__test .continue__page h4:nth-child(1),
+#chimp__test .continue__page h4:nth-child(2) {
+  margin: 0;
+}
+
+#memory__container .continue__page h4:nth-child(2),
+#chimp__test .continue__page h4:nth-child(2) {
+  font-size: 50px;
+}
+
+#memory__container #chimp__test,
+#chimp__test #chimp__test {
+  width: 500px;
+  height: 500px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#memory__container #chimp__test p,
+#chimp__test #chimp__test p {
+  margin: 5px;
+  width: 77px;
+  height: 77px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#memory__container .starter__page,
+#chimp__test .starter__page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#memory__container .starter__page *,
+#chimp__test .starter__page * {
+  margin: 5px;
+}
+
+#memory__container .starter__page button:hover,
+#chimp__test .starter__page button:hover {
+  background: #ffeac2;
+}
+
+#memory__container .starter__page h4:nth-child(1),
+#chimp__test .starter__page h4:nth-child(1) {
+  font-size: 30px;
+  line-height: 4ch;
+}
+
+#memory__container .numb,
+#memory__container .numstart,
+#chimp__test .numb,
+#chimp__test .numstart {
+  border-radius: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+
+#memory__container .numb,
+#chimp__test .numb {
+  border: 5px solid #3f94d5;
+  color: white;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+#memory__container .numb:hover,
+#chimp__test .numb:hover {
+  border: 5px solid white;
+}
+
+#memory__container .numstart,
+#chimp__test .numstart {
+  border-radius: 10px 10px 10px 10px;
+  border: 5px solid white;
+  background: white;
+}
+
+#memory__container .numstart:after,
+#chimp__test .numstart:after {
+  content: "" !important;
+}
+
+#memory__container .num0:after,
+#chimp__test .num0:after {
+  content: "0";
+}
+
+#memory__container .num1:after,
+#chimp__test .num1:after {
+  content: "1";
+}
+
+#memory__container .num2:after,
+#chimp__test .num2:after {
+  content: "2";
+}
+
+#memory__container .num3:after,
+#chimp__test .num3:after {
+  content: "3";
+}
+
+#memory__container .num4:after,
+#chimp__test .num4:after {
+  content: "4";
+}
+
+#memory__container .num5:after,
+#chimp__test .num5:after {
+  content: "5";
+}
+
+#memory__container .num6:after,
+#chimp__test .num6:after {
+  content: "6";
+}
+
+#memory__container .num7:after,
+#chimp__test .num7:after {
+  content: "7";
+}
+
+#memory__container .num8:after,
+#chimp__test .num8:after {
+  content: "8";
+}
+
+#memory__container .num9:after,
+#chimp__test .num9:after {
+  content: "9";
+}
+
+#memory__container .num10:after,
+#chimp__test .num10:after {
+  content: "10";
+}
+
+#memory__container .num11:after,
+#chimp__test .num11:after {
+  content: "11";
+}
+
+#memory__container .num12:after,
+#chimp__test .num12:after {
+  content: "12";
+}
+
+#memory__container .num13:after,
+#chimp__test .num13:after {
+  content: "13";
+}
+
+#memory__container .num14:after,
+#chimp__test .num14:after {
+  content: "14";
+}
+
+#memory__container .num15:after,
+#chimp__test .num15:after {
+  content: "15";
+}
+
+#memory__container .num16:after,
+#chimp__test .num16:after {
+  content: "16";
+}
+
+#memory__container .num17:after,
+#chimp__test .num17:after {
+  content: "17";
+}
+
+#memory__container .num18:after,
+#chimp__test .num18:after {
+  content: "18";
+}
+
+#memory__container .num19:after,
+#chimp__test .num19:after {
+  content: "19";
+}
+
+#memory__container .num20:after,
+#chimp__test .num20:after {
+  content: "20";
+}
+/*# sourceMappingURL=Memorytest.css.map */
