@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/human-benchmark2p0/static/css/main.445b81c3.chunk.css",
-    "main.js": "/human-benchmark2p0/static/js/main.6501272a.chunk.js",
-    "main.js.map": "/human-benchmark2p0/static/js/main.6501272a.chunk.js.map",
-    "runtime-main.js": "/human-benchmark2p0/static/js/runtime-main.a1ffe34e.js",
-    "runtime-main.js.map": "/human-benchmark2p0/static/js/runtime-main.a1ffe34e.js.map",
-    "static/js/2.6c548868.chunk.js": "/human-benchmark2p0/static/js/2.6c548868.chunk.js",
-    "static/js/2.6c548868.chunk.js.map": "/human-benchmark2p0/static/js/2.6c548868.chunk.js.map",
-    "static/js/3.a7d00227.chunk.js": "/human-benchmark2p0/static/js/3.a7d00227.chunk.js",
-    "static/js/3.a7d00227.chunk.js.map": "/human-benchmark2p0/static/js/3.a7d00227.chunk.js.map",
-    "index.html": "/human-benchmark2p0/index.html",
-    "static/css/main.445b81c3.chunk.css.map": "/human-benchmark2p0/static/css/main.445b81c3.chunk.css.map",
-    "static/js/2.6c548868.chunk.js.LICENSE.txt": "/human-benchmark2p0/static/js/2.6c548868.chunk.js.LICENSE.txt"
+    "main.css": "/human-benchmark/static/css/main.445b81c3.chunk.css",
+    "main.js": "/human-benchmark/static/js/main.6501272a.chunk.js",
+    "main.js.map": "/human-benchmark/static/js/main.6501272a.chunk.js.map",
+    "runtime-main.js": "/human-benchmark/static/js/runtime-main.2d605098.js",
+    "runtime-main.js.map": "/human-benchmark/static/js/runtime-main.2d605098.js.map",
+    "static/js/2.6c548868.chunk.js": "/human-benchmark/static/js/2.6c548868.chunk.js",
+    "static/js/2.6c548868.chunk.js.map": "/human-benchmark/static/js/2.6c548868.chunk.js.map",
+    "static/js/3.a7d00227.chunk.js": "/human-benchmark/static/js/3.a7d00227.chunk.js",
+    "static/js/3.a7d00227.chunk.js.map": "/human-benchmark/static/js/3.a7d00227.chunk.js.map",
+    "index.html": "/human-benchmark/index.html",
+    "static/css/main.445b81c3.chunk.css.map": "/human-benchmark/static/css/main.445b81c3.chunk.css.map",
+    "static/js/2.6c548868.chunk.js.LICENSE.txt": "/human-benchmark/static/js/2.6c548868.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a1ffe34e.js",
+    "static/js/runtime-main.2d605098.js",
     "static/js/2.6c548868.chunk.js",
     "static/css/main.445b81c3.chunk.css",
     "static/js/main.6501272a.chunk.js"
